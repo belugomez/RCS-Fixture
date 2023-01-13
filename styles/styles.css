@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body :hover {
+    cursor: pointer;
+
+}
+
+
+.header{
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(216, 218, 107);
+    
+}
+
+
+.logo  {
+    padding: 16px 32px;
+    text-align: left;
+    background-color: rgb(159, 45, 45);
+  
+}
+
+
+.nav-bar {
+    text-align: right;
+    background-color: rgb(185, 207, 143);
+    padding: 16px 32px;
+    border-radius: 3px;
+    border: 2px solid rgb(159, 45, 45) ;
+    font-weight: bold;
+    font-size: 80%;
+}
+ 
+
+.nav-bar a{
+    background:beige;
+    color:rgb(159, 45, 45);
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid rgb(159, 45, 45);
+    
+}
+.nav-bar :active {
+
+    background:rgb(159, 45, 45);
+    color:beige;
+
+}
+   
+
+h1 {
+    background-color:beige;
+    font-size: 70px;
+    text-align: center;
+    color:rgb(159, 45, 45)  ;
+    padding: 80px;
+      
+}
+
+main {
+    background-color:beige;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+  
+}
+
+main section {
+    width: 30%;
+    margin-bottom: 4px;
+}
+   
+
+h2 {
+    text-align: center;
+    color:rgb(159, 45, 45);
+    border-radius: 10px;
+    border: 3px solid rgb(159, 45, 45) ;
+    background-color:rgb(185, 207, 143) ;
+}
+
+
+.container-group  {
+    display:flex;
+    align-items: center;
+    padding: 16px 32px;
+    color:rgb(159, 45, 45) ;
+    font-weight: bold; 
+
+}
+
+
+.container-group img {
+    width: 50px;
+    object-fit: contain;
+}
+
+.container-group p {
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    width: 100%;
+    margin-left: 2px;
+    padding: 5px 5px 5px 15px;
+    font-weight:500;
+    font-size: 18px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid rgb(159, 45, 45) ;    
+}
+
+
+.name-class {
+    font-size: 15px;
+    background-color:rgb(216, 218, 107) ;
+    text-align:center;
+    padding: 05px 10px;
+    color: black;
+    border-radius: 3px;
+    border: 2px solid rgb(159, 45, 45) ;
+  
+}
+
+.copyright-class {
+    font-size: 15px;
+    background-color: rgb(216, 218, 107);
+    text-align: right;
+    padding: 16px 32px;
+    color:black;
+    border-radius: 3px;
+    border: 2px solid rgb(159, 45, 45) ;
+}
+
+
+
+
+
+
+
+
